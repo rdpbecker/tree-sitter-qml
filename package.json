@@ -1,0 +1,26 @@
+{
+  "name": "tree-sitter-qml",
+  "version": "1.0.0",
+  "description": "A tree-sitter extension for QML files.",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ribecks98/tree-sitter-qml"
+  },
+  "keywords": [
+    "tree-sitter",
+    "qml"
+  ],
+  "author": "Riley Becker",
+  "license": "ISC",
+  "dependencies": {
+    "nan": "^2.14.2",
+    "tree-sitter-javascript": "^0.19.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.0"
+  }
+}
