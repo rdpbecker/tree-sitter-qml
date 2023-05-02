@@ -11,6 +11,6 @@ Component {
     textNameWidth: 3
     signal xY()
     function xY() {
-        return 1
+        return popup_item
     }
 }
